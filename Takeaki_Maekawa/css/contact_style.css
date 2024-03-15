@@ -1,0 +1,189 @@
+html{
+    height: 100%;
+}
+
+/* 背景画像 */
+body {
+    background-image: url("../images/aozora_3.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+    height: 100%;
+    animation: fadein 2s forwards;
+}
+
+@keyframes fadein {
+	0% {opacity: 0}
+	100% {opacity: 1}
+}
+
+header{
+    height: 200px;
+}
+
+
+/* ヘッダー */
+.header-container{
+    margin-top: 60px;
+    position :fixed;
+    width: 100%;
+}
+
+.header-logo{
+    width: 80px;
+    height:80px;
+    margin-left: 25px;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+.header-logo:hover{
+    opacity: .7;
+}
+
+.header-left{
+    float: left;
+}
+
+.header-right{
+    float: right;
+    margin-right: 40px;
+    font-family: "HGSｺﾞｼｯｸE";
+    padding-top: 15px;
+}
+
+.header-right a {
+    margin-right: 20px;
+    text-decoration:none;
+    color:white;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 8px;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+.header-right a:hover{
+    opacity: .7;
+}
+
+
+/* トップメッセージ */
+.top-container{
+    padding: 100px 350px;
+    color: white;
+}
+
+.top-container h1{
+    font-size: 120px;
+    letter-spacing: 5px;
+}
+
+.top-container p{
+    font-size: 30px;
+    letter-spacing: 5px;
+    font-family: "HGSｺﾞｼｯｸE";
+}
+
+
+/* お問い合わせフォーム */
+.contact-wrapper{
+    padding: 150px 350px 100px 350px;
+}
+
+.contact-form h1{
+    color: red;
+}
+
+.contact-form label{
+    color: white;
+    font-size: 32px;
+    letter-spacing: 5px;
+    font-weight: bold;
+}
+
+.contact-detel{
+    padding-bottom: 50px;
+}
+
+.input-box{
+    width: 100%;
+    resize:none;
+    font-size:20px;
+    outline:0;
+    border: none;
+    border-radius: 5px;
+}
+
+.input-name{
+    padding: 8px;
+    height: 30px;
+}
+
+.input-email{
+    padding: 8px;
+    height: 30px;
+}
+
+.input-message{
+    padding: 8px;
+    height: 250px;
+    line-height: 1.5;
+}
+
+.contact-submit{
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.contact-submit-button{
+    width: 20%;
+    height: 70px;
+    border: none;
+    background-color: white;
+    font-size: 20px;
+    font-family: "HGSｺﾞｼｯｸE";
+    letter-spacing: 3px;
+    border-radius: 5px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.contact-submit-button:hover{
+    opacity: .7;
+}
+
+
+/* フッター */
+footer{
+    height:200px;
+    width: 100%;
+    background-color: white;
+    margin-top: auto;
+	bottom:0;
+    text-align: center;
+    position: relative;
+}
+
+footer p{
+    height: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "HGSｺﾞｼｯｸE";
+}

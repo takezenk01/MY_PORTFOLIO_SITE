@@ -1,0 +1,189 @@
+html{
+    height: 100%;
+}
+
+/* 背景画像 */
+body {
+    background-image: url("../images/sea.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+    height: 100%;
+    animation: fadein 2s forwards;
+}
+
+@keyframes fadein {
+	0% {opacity: 0}
+	100% {opacity: 1}
+}
+
+header{
+    height: 200px;
+}
+
+/* ヘッダー */
+.header-container{
+    margin-top: 60px;
+    position :fixed;
+    width: 100%;
+}
+
+.header-logo{
+    width: 80px;
+    height:80px;
+    margin-left: 25px;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+.header-logo:hover{
+    opacity: .7;
+}
+
+.header-left{
+    float: left;
+}
+
+.header-right{
+    float: right;
+    margin-right: 40px;
+    font-family: "HGSｺﾞｼｯｸE";
+    padding-top: 15px;
+}
+
+.header-right a {
+    margin-right: 20px;
+    text-decoration:none;
+    color:white;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 8px;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+.header-right a:hover{
+    opacity: .7;
+}
+
+
+/* プロフィール */
+.profile-wrapper{
+    text-align: center;
+    margin: auto;
+    padding: 100px 0px;
+}
+
+.profile{
+    padding: 50px 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.face-img{
+    height: 350px;
+    width: 350px;
+}
+
+.profile-detels{
+    color: white;
+    font-size: 32px;
+    font-family: "HGSｺﾞｼｯｸE";
+    letter-spacing: 5px;
+}
+
+
+/* キャリア */
+.career-wrapper{
+    background-color: #A7F1FF;
+    text-align: center;
+    padding: 50px 0px 0px 0px;
+}
+
+.career-title{
+    font-family: "HGSｺﾞｼｯｸE";
+    font-size: 36px;
+    letter-spacing: 8px;
+}
+
+.career{
+    display: flex;
+    justify-content: center;
+    text-align: left;
+}
+
+.career-detels{
+    padding-top: 50px;
+    font-size: 22px;
+    font-family: "HGPｺﾞｼｯｸM";
+    letter-spacing: 5px;
+}
+
+/* スキル */
+.skill-wrapper{
+    background-color: #A7F1FF;
+    text-align: center;
+    padding: 70px 0px 150px 0px;
+}
+
+.skill-title{
+    font-family: "HGSｺﾞｼｯｸE";
+    font-size: 36px;
+    letter-spacing: 8px;
+}
+
+.skill-detels{
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.skill-detels table{
+    width: 500px;
+    text-align: left;
+}
+
+.skill-detels th{
+    font-size: 26px;
+    padding: 20px 0px;
+}
+
+.skill-detels td{
+    font-size: 18px;
+    padding: 10px 0px;
+    font-family: "HGPｺﾞｼｯｸM";
+    letter-spacing: 5px;
+    font-weight: bold;
+}
+
+
+/* フッター */
+footer{
+    height:200px;
+    width: 100%;
+    background-color: white;
+    margin-top: auto;
+	bottom:0;
+    text-align: center;
+    position: relative;
+}
+
+footer p{
+    height: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "HGSｺﾞｼｯｸE";
+}
