@@ -7,5 +7,5 @@
 ファイル構成  
 top.html・・・サイトのトップページです。  
 about.html・・・私の経歴についてのページです。  
-contact.html・・・問い合わせフォームのページです。
+contact.html・・・問い合わせフォームのページです。  
 work_sample.html・・・作品についてのフォーマットページです。
